@@ -1,3 +1,17 @@
+@use "./abstracts" as *;
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-background: #{$color-background};
+  --color-text: #{$color-text};
+  --color-card: #{$color-card};
+}
+
+.dark {
+  --color-background: #{$color-background--dark};
+  --color-text: #{$color-text--dark};
+  --color-card: #{$color-card--dark};
+}
