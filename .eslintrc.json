@@ -1,0 +1,21 @@
+{
+  "root": true,
+
+  "extends": ["next/core-web-vitals", "airbnb-typescript", "prettier"],
+
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "project": "./tsconfig.json"
+  },
+  "parser": "@typescript-eslint/parser",
+
+  "rules": {
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "off",
+    "consistent-return": "off",
+    "no-debugger": "off",
+    "no-console": "off"
+  },
+  "ignorePatterns": ["/*.config.js", "/*.setup.js"]
+}
