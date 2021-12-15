@@ -2,7 +2,11 @@ import type { NextPage } from "next";
 import styles from "../styles/Home.module.scss";
 
 const Home: NextPage = () => {
-  return <h1 className={styles.heading}>Hi</h1>;
+  return (
+    <main className={styles.container}>
+      <div className={styles.container__card}>AAAAAAAAAAAAAAAAAAAAAAAAA</div>
+    </main>
+  );
 };
 
 export default Home;
