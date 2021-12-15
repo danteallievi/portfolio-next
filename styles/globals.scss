@@ -10,8 +10,29 @@
   --color-card: #{$color-card};
 }
 
-.dark {
-  --color-background: #{$color-background--dark};
-  --color-text: #{$color-text--dark};
-  --color-card: #{$color-card--dark};
+@media (prefers-color-scheme: dark) {
+  .dark {
+    --color-background: #{$color-background--dark};
+    --color-text: #{$color-text--dark};
+    --color-card: #{$color-card--dark};
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+.main-content {
+  @apply grid grid-cols-12 px-5 my-8 lg:my-0 lg:px-16 gap-6 lg:items-center;
+  min-height: 100vh;
+  color: var(--color-text);
+}
+
+.article-content {
+  @apply col-span-12 lg:col-span-9;
+  background-color: var(--color-card);
 }
