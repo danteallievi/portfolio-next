@@ -8,6 +8,8 @@
   --color-background: #{$color-background};
   --color-text: #{$color-text};
   --color-card: #{$color-card};
+  --theme-color: #{$theme-color};
+  --color-primary: #{$color-primary};
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,11 +17,14 @@
     --color-background: #{$color-background--dark};
     --color-text: #{$color-text--dark};
     --color-card: #{$color-card--dark};
+    --theme-color: #{$theme-color--dark};
+    --color-primary: #{$color-primary--dark};
   }
 }
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
