@@ -3,7 +3,7 @@ interface ILayoutProps {
 }
 
 const Layout = ({ children }: ILayoutProps) => {
-  return <div className="dark">{children}</div>;
+  return <main className="main-content">{children}</main>;
 };
 
 export default Layout;
