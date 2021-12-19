@@ -1,0 +1,12 @@
+@use "/styles/abstracts/index" as *;
+
+.mainContent {
+  @apply grid grid-cols-12 px-5 my-8 lg:my-0 lg:px-16 gap-6 lg:items-center;
+  min-height: 100vh;
+  color: var(--color-text);
+
+  &__articleContent {
+    @apply col-span-12 xl:col-span-9 lg:col-span-8;
+    background-color: var(--color-card);
+  }
+}
