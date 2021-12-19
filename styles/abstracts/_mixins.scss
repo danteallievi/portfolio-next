@@ -7,7 +7,7 @@
 }
 
 @mixin sideCardBasics {
-  @apply col-span-12 lg:col-span-3 rounded-3xl;
+  @apply col-span-12 lg:col-span-4 rounded-3xl xl:col-span-3;
   @include shadowBasic;
   background-color: var(--color-card);
   display: flex;
