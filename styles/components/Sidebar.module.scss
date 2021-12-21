@@ -6,7 +6,7 @@
   &__title {
     @apply px-4;
     &__mainTitle {
-      @apply text-5xl my-5 text-center;
+      @apply text-5xl my-4 text-center;
       font-family: "MonteCarlo", cursive, sans-serif;
 
       span {
@@ -15,16 +15,16 @@
       }
     }
     &__subTitle {
-      @apply text-2xl my-5 text-center;
+      @apply text-2xl my-4 text-center;
     }
   }
 
   &__resume {
-    @apply px-4;
+    @apply px-2;
 
     &__downloadLink {
       @include shadowSmall;
-      @apply rounded-full my-5 text-lg py-4 px-8 lg:py-2 lg:px-4;
+      @include buttonShade;
 
       border-color: var(--color-primary);
       border-width: 1px;
