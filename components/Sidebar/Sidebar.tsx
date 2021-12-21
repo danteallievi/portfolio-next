@@ -8,6 +8,7 @@ import {
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SocialIcons from "../SocialIcons/SocialIcons";
+import ThemeButton from "../ThemeButton/ThemeButton";
 
 const Sidebar = () => {
   return (
@@ -28,7 +29,7 @@ const Sidebar = () => {
           className={styles.sideCard__resume__downloadLink}
         >
           <FontAwesomeIcon icon={faAddressBook} />
-          <span>Download Resume</span>
+          <span>Download resume</span>
         </a>
       </div>
 
@@ -46,6 +47,8 @@ const Sidebar = () => {
           <p>+34 1231543</p>
         </div>
       </div>
+
+      <ThemeButton />
     </aside>
   );
 };
