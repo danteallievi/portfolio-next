@@ -43,7 +43,7 @@ const ThemeButton = () => {
     <>
       <button className={styles.themeButton} onClick={handleToggleTheme}>
         <FontAwesomeIcon icon={darkTheme ? faSun : faMoon} />
-        {darkTheme ? "Light" : "Dark"} Mode
+        {darkTheme ? "Light" : "Dark"} mode
       </button>
     </>
   );

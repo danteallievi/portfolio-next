@@ -29,7 +29,7 @@ const Sidebar = () => {
           className={styles.sideCard__resume__downloadLink}
         >
           <FontAwesomeIcon icon={faAddressBook} />
-          <span>Download Resume</span>
+          <span>Download resume</span>
         </a>
       </div>
 
