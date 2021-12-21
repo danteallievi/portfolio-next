@@ -7,7 +7,7 @@
 }
 
 @mixin sideCardBasics {
-  @apply col-span-12 lg:col-span-4 rounded-3xl xl:col-span-3;
+  @apply col-span-12 lg:col-span-4 rounded-3xl xl:col-span-3 py-4;
   @include shadowBasic;
   background-color: var(--color-card);
   display: flex;
@@ -17,4 +17,8 @@
     min-height: 80%;
     width: 90%;
   }
+}
+
+@mixin buttonShade {
+  @apply rounded-full my-5 text-lg py-4 px-8 lg:py-2 lg:px-4;
 }
