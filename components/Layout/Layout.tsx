@@ -1,4 +1,5 @@
 import styles from "../../styles/components/Layout.module.scss";
+import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 
 interface ILayoutProps {
@@ -11,6 +12,7 @@ const Layout = ({ children }: ILayoutProps) => {
       <main className={styles.mainContent}>
         <Sidebar />
         <section className={styles.mainContent__articleContent}>
+          <Navbar />
           {children}
         </section>
       </main>
