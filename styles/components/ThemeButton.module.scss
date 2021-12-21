@@ -1,0 +1,17 @@
+@use "/styles/abstracts/index" as *;
+
+.themeButton {
+  @include shadowSmall;
+  @include buttonShade;
+  @apply px-10 mb-8;
+  color: var(--not-theme-color);
+  background-color: var(--theme-color);
+  border-color: var(--color-primary);
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+
+  svg {
+    margin-right: 0.8rem;
+  }
+}
