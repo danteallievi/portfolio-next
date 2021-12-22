@@ -25,7 +25,7 @@ const Sidebar = () => {
       <div className={styles.sideCard__resume}>
         <a
           href="/assets/DANTE-ALLIEVI-EN.pdf"
-          download="Dante Allievi Resume.pdf"
+          download="DANTE-ALLIEVI-EN.pdf"
           className={styles.sideCard__resume__downloadLink}
         >
           <FontAwesomeIcon icon={faAddressBook} />
