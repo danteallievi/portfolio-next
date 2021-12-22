@@ -1,0 +1,16 @@
+.navbar {
+  @apply px-5 py-3 my-3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__links {
+    @apply text-base font-normal md:text-xl;
+  }
+
+  &__activePage {
+    @apply text-xl font-bold md:text-2xl;
+    color: var(--color-primary);
+    border-bottom: 4px solid var(--color-primary);
+  }
+}
