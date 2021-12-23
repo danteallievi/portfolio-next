@@ -14,12 +14,12 @@ const ThemeButton = () => {
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       document.documentElement.classList.add("dark");
+      localStorage.theme = "dark";
       setDarkTheme(true);
-      console.log("dark theme trueee");
     } else {
       document.documentElement.classList.remove("dark");
+      localStorage.theme = "light";
       setDarkTheme(false);
-      console.log("dark theme falsee");
     }
   };
 
@@ -32,10 +32,12 @@ const ThemeButton = () => {
       setDarkTheme(false);
       localStorage.theme = "light";
       document.documentElement.classList.remove("dark");
+      console.log(document.documentElement.classList);
     } else {
       setDarkTheme(true);
       localStorage.theme = "dark";
       document.documentElement.classList.add("dark");
+      console.log(document.documentElement.classList);
     }
   };
 
