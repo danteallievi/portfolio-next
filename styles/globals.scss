@@ -13,15 +13,13 @@
   --color-primary: #{$color-primary};
 }
 
-@media (prefers-color-scheme: dark) {
-  .dark {
-    --color-background: #{$color-background--dark};
-    --color-text: #{$color-text--dark};
-    --color-card: #{$color-card--dark};
-    --theme-color: #{$theme-color--dark};
-    --not-theme-color: #{$theme-color};
-    --color-primary: #{$color-primary--dark};
-  }
+[data-theme="dark"] {
+  --color-background: #{$color-background--dark};
+  --color-text: #{$color-text--dark};
+  --color-card: #{$color-card--dark};
+  --theme-color: #{$theme-color--dark};
+  --not-theme-color: #{$theme-color};
+  --color-primary: #{$color-primary--dark};
 }
 
 * {
