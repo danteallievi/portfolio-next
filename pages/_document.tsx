@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link
-          href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Roboto&display=swap"
+          href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
         <meta name="author" content="Dante Allievi" />
