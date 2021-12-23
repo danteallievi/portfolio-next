@@ -44,7 +44,7 @@ const Sidebar = () => {
         </div>
         <div>
           <FontAwesomeIcon icon={faPhone} />
-          <p>+34 1231543</p>
+          <p>+34 607 55 13 93</p>
         </div>
       </div>
 
