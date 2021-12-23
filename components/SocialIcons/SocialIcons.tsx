@@ -11,6 +11,7 @@ const SocialIcons = () => {
         href="https://github.com/danteallievi"
         target="_blank"
         rel="noreferrer"
+        aria-label="Dante Allievi github"
       >
         <FontAwesomeIcon icon={faGithub} />
       </a>
@@ -18,10 +19,16 @@ const SocialIcons = () => {
         href="https://www.linkedin.com/in/dante-allievi"
         target="_blank"
         rel="noreferrer"
+        aria-label="Dante Allievi linkedin"
       >
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
-      <a href="mailto:danteallievi@gmail.com" target="_blank" rel="noreferrer">
+      <a
+        href="mailto:danteallievi@gmail.com"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Mail to Dante Allievi"
+      >
         <FontAwesomeIcon icon={faEnvelope} />
       </a>
     </div>
