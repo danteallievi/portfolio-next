@@ -6,16 +6,30 @@
   box-shadow: 5px 5px 15px #0000006e;
 }
 
-@mixin sideCardBasics {
-  @apply col-span-12 lg:col-span-4 rounded-3xl xl:col-span-3 py-4;
+@mixin cardBasics {
   @include shadowBasic;
+  @apply rounded-3xl py-4;
   background-color: var(--color-card);
+
+  @media (min-width: 1024px) {
+    min-height: 80%;
+  }
+}
+
+@mixin mainCardBasics {
+  @include cardBasics;
+  @apply col-span-12 xl:col-span-9 p-4 sm:px-8;
+}
+
+@mixin sideCardBasics {
+  @include cardBasics;
+  @apply col-span-12 xl:col-span-3;
   display: flex;
   flex-direction: column;
   align-items: center;
   @media (min-width: 1024px) {
     min-height: 80%;
-    width: 90%;
+    width: 95%;
   }
 }
 

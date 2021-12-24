@@ -1,5 +1,5 @@
 .navbar {
-  @apply px-5 py-3 my-3;
+  @apply py-3 my-3;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,7 +9,7 @@
   }
 
   &__activePage {
-    @apply text-xl font-bold md:text-2xl;
+    @apply text-xl font-bold md:text-2xl sm:mx-5;
     color: var(--color-primary);
     border-bottom: 4px solid var(--color-primary);
   }

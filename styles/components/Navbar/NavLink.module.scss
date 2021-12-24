@@ -1,8 +1,16 @@
 .navLink {
-  @apply mx-2;
+  @apply sm:mx-5 p-3 sm:p-0;
   cursor: pointer;
+  color: var(--color-primary);
+  font-weight: bold;
 
   &:hover {
+    color: var(--color-primary);
+  }
+
+  @media (min-width: 640px) {
+    font-weight: normal;
     border-bottom: 2px solid var(--color-primary);
+    color: var(--color-text);
   }
 }
