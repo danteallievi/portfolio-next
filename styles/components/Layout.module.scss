@@ -6,7 +6,6 @@
   color: var(--color-text);
 
   &__articleContent {
-    @apply col-span-12 xl:col-span-9 lg:col-span-8;
-    background-color: var(--color-card);
+    @include mainCardBasics;
   }
 }
