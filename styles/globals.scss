@@ -36,6 +36,14 @@ body {
   background-color: var(--color-background);
 }
 
+// 2K
+@media (min-width: 2048px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+// 4K
 @media (min-width: 3800px) {
   html {
     font-size: 2.8rem;
