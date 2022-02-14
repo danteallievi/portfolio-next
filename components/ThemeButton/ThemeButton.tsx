@@ -1,6 +1,6 @@
 import { useTheme } from "next-themes";
 import { useCallback, useEffect, useState } from "react";
-import styles from "../../styles/components/ThemeButton.module.scss";
+import styles from "../../styles/components/ThemeButton/ThemeButton.module.scss";
 
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
