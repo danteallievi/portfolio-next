@@ -1,13 +1,19 @@
-import { faServer } from "@fortawesome/free-solid-svg-icons";
+import styles from "../../styles/components/SkillsCardsContainer/SkillsCardsContainer.module.scss";
 
 import SkillCard from "../SkillCard/SkillCard";
 
-import styles from "../../styles/components/SkillsCardsContainer/SkillsCardsContainer.module.scss";
+import { skills } from "../../data";
 
 const SkillsCardsContainer = () => {
   return (
     <div className={styles.container}>
-      <SkillCard icon={faServer} title={"Hi"} subtitle={"hi"} />
+      <h1 className={styles.container__title}>Things I can do</h1>
+
+      <div className={styles.container__cards}>
+        {skills.map((skill) => (
+          <SkillCard key={skill.title} {...skill} />
+        ))}
+      </div>
     </div>
   );
 };

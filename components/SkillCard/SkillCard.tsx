@@ -1,17 +1,9 @@
-import type { NextPage } from "next";
-
 import styles from "../../styles/components/SkillCard.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { ISkillCard } from "../../interfaces/ISkillCard";
 
-interface Props {
-  icon: IconDefinition;
-  title: string;
-  subtitle: string;
-}
-
-const SkillCard: NextPage<Props> = ({ icon, title, subtitle }) => {
+const SkillCard = ({ icon, title, subtitle }: ISkillCard) => {
   return (
     <div className={styles.card}>
       <div className={styles.card_icon}>
