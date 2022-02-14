@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import styles from "../../styles/components/Navbar/Navbar.module.scss";
-import NavLink from "./NavLink";
+import styles from "./Navbar.module.scss";
+import NavLink from "./NavLink/NavLink";
 
 const Navbar = () => {
   const [active, setActive] = useState("");

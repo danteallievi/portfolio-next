@@ -1,6 +1,6 @@
 import { ThemeProvider } from "next-themes";
 
-import styles from "../../styles/components/Layout/Layout.module.scss";
+import styles from "./Layout.module.scss";
 import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 
