@@ -9,6 +9,11 @@ import {
 
 import { ISkillCard } from "./interfaces/ISkillCard";
 
+export const aboutText: string = `I am from Buenos Aires, Argentina. Proactive and motivated, wanting to
+          grow in the world of development and as a person. I have 2+ years of
+          experience in Web Development and I'm a huge fan of JavaScript
+          and its frameworks.`;
+
 export const skills: ISkillCard[] = [
   {
     icon: faDesktop,
