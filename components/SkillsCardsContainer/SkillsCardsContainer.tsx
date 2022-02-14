@@ -1,4 +1,4 @@
-import styles from "../../styles/components/SkillsCardsContainer/SkillsCardsContainer.module.scss";
+import styles from "./SkillsCardsContainer.module.scss";
 
 import SkillCard from "../SkillCard/SkillCard";
 

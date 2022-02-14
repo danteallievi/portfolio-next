@@ -1,4 +1,4 @@
-import styles from "../../styles/components/Sidebar/Sidebar.module.scss";
+import styles from "./Sidebar.module.scss";
 import {
   faAddressBook,
   faEnvelope,
