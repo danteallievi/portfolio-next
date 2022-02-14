@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import Link from "next/link";
 
-import styles from "../../styles/components/Navbar/NavLink.module.scss";
+import styles from "./NavLink.module.scss";
 
 const NavLink: FunctionComponent<{
   active: string;

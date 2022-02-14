@@ -1,4 +1,4 @@
-import styles from "../../styles/components/SkillCard/SkillCard.module.scss";
+import styles from "./SkillCard.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ISkillCard } from "../../interfaces/ISkillCard";

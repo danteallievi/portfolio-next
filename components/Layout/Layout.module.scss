@@ -1,4 +1,4 @@
-@use "/styles/abstracts/index" as *;
+@use "../../styles/abstracts/index" as *;
 
 .mainContent {
   @apply grid grid-cols-12 px-5 my-8 xl:my-0 xl:px-16 gap-6 lg:items-center;
