@@ -1,21 +1,23 @@
 @use "/styles/abstracts/index" as *;
 
 .card {
-  @apply rounded-lg;
+  @apply rounded-lg p-2;
   @include shadowSmall;
-
-  margin-top: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: var(--theme-color);
-  min-width: 40%;
-  max-width: 45%;
+  width: 100%;
   min-height: 100px;
 
   .card_icon {
     font-size: 2rem;
     margin: 1rem;
+    color: var(--color-primary);
+  }
+
+  .card__title {
+    @apply text-lg font-bold mb-1;
   }
 
   .card_content {

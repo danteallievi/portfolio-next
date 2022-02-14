@@ -1,4 +1,12 @@
 .container {
-  width: 100%;
-  background-color: red;
+  @apply p-6 overflow-y-auto mb-5;
+
+  &__title {
+    @apply text-xl font-bold;
+  }
+
+  &__cards {
+    @apply py-5 grid md:grid-cols-2 grid-cols-1 gap-4;
+    min-width: 100%;
+  }
 }

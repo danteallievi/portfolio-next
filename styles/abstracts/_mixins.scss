@@ -9,16 +9,20 @@
 @mixin cardBasics {
   @include shadowBasic;
   @apply rounded-3xl py-4;
+
+  overflow: hidden;
   background-color: var(--color-card);
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1280px) {
     min-height: 80%;
+    max-height: 80%;
+    height: 80vh;
   }
 }
 
 @mixin mainCardBasics {
   @include cardBasics;
-  @apply col-span-12 xl:col-span-9 p-4 sm:px-8;
+  @apply col-span-12 xl:col-span-9;
 }
 
 @mixin sideCardBasics {
@@ -28,11 +32,10 @@
   flex-direction: column;
   align-items: center;
   @media (min-width: 1280px) {
-    min-height: 80%;
     width: 95%;
   }
 }
 
 @mixin buttonShade {
-  @apply rounded-full my-5 text-lg py-4 px-8 lg:py-2 lg:px-4;
+  @apply rounded-full my-5 text-lg py-4 px-8 xl:py-2 xl:px-4;
 }

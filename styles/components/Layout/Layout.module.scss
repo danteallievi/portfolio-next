@@ -1,11 +1,11 @@
 @use "/styles/abstracts/index" as *;
 
 .mainContent {
-  @apply grid grid-cols-12 px-5 my-8 lg:my-0 lg:px-16 gap-6 lg:items-center;
+  @apply grid grid-cols-12 px-5 my-8 xl:my-0 xl:px-16 gap-6 lg:items-center;
   min-height: 100vh;
   color: var(--color-text);
 
-  &__articleContent {
+  &__mainCard {
     @include mainCardBasics;
   }
 }

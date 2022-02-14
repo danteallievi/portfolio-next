@@ -1,6 +1,6 @@
 import { ThemeProvider } from "next-themes";
 
-import styles from "../../styles/components/Layout.module.scss";
+import styles from "../../styles/components/Layout/Layout.module.scss";
 import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 
@@ -13,7 +13,8 @@ const Layout = ({ children }: ILayoutProps) => {
     <ThemeProvider>
       <main className={styles.mainContent}>
         <Sidebar />
-        <section className={styles.mainContent__articleContent}>
+
+        <section className={styles.mainContent__mainCard}>
           <Navbar />
           {children}
         </section>

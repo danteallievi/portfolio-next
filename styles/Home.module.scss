@@ -1,4 +1,11 @@
 @use "./abstracts" as abstracts;
 
-.content__title {
+.content {
+  height: 100%;
+  min-height: 100%;
+  overflow: auto;
+
+  &__title {
+    @apply px-6;
+  }
 }
