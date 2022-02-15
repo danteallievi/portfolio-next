@@ -1,5 +1,22 @@
-.hola {
-  background-color: red;
-  width: 100px;
-  height: 100px;
+@use "../../styles/abstracts/index" as *;
+
+.card {
+  @apply p-2 rounded-lg;
+  @include shadowSmall;
+  background-color: var(--theme-color);
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__image:hover {
+    cursor: pointer;
+  }
+
+  &__title {
+    @apply my-2 text-center;
+    color: var(--color-text);
+  }
 }
