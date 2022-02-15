@@ -5,3 +5,9 @@ export interface ISkillCard {
   title: string;
   subtitle: string;
 }
+
+export interface IProjectCard {
+  onClick?: () => void;
+  name: string;
+  imagePath: string;
+}

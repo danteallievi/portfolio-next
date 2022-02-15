@@ -22,11 +22,6 @@
   --color-primary: #{$color-primary--dark};
 }
 
-button,
-a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
@@ -34,6 +29,24 @@ a {
 
 body {
   background-color: var(--color-background);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-card);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 // 2K

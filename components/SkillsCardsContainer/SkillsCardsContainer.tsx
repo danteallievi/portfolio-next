@@ -7,7 +7,7 @@ import { skills } from "../../data";
 const SkillsCardsContainer = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.container__title}>Things I can do</h1>
+      <h2 className={styles.container__title}>Things I can do</h2>
 
       <div className={styles.container__cards}>
         {skills.map((skill) => (
