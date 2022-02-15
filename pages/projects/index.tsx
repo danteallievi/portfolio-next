@@ -1,4 +1,8 @@
+import styles from "../../styles/Projects.module.scss";
+
 import Head from "next/head";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import { projects } from "../../data";
 
 const index = () => {
   return (
@@ -6,8 +10,12 @@ const index = () => {
       <Head>
         <title>Dante Allievi - Projects</title>
       </Head>
-      <h1>Hola madafaka</h1>
-      <h1>Muchos projectos</h1>
+
+      <div className={styles.projects_container}>
+        {projects.map((project) => (
+          <ProjectCard key={project.name} {...project} />
+        ))}
+      </div>
     </>
   );
 };

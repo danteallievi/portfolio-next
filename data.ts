@@ -7,7 +7,7 @@ import {
   faCodeBranch,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { ISkillCard } from "./interfaces/ISkillCard";
+import { IProjectCard, ISkillCard } from "./interfaces/interfaces";
 
 export const aboutText: string = `I am from Buenos Aires, Argentina. Proactive and motivated, wanting to
           grow in the world of development and as a person. I have 2+ years of
@@ -49,5 +49,12 @@ export const skills: ISkillCard[] = [
     title: "Best Practices",
     subtitle:
       "Used to work following the SOLID principles and the FLUX pattern.",
+  },
+];
+
+export const projects: IProjectCard[] = [
+  {
+    name: "Memories",
+    imagePath: "/images/memories.jpg",
   },
 ];
