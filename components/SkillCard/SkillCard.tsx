@@ -1,7 +1,7 @@
 import styles from "./SkillCard.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ISkillCard } from "../../interfaces/ISkillCard";
+import { ISkillCard } from "../../interfaces/interfaces";
 
 const SkillCard = ({ icon, title, subtitle }: ISkillCard) => {
   return (

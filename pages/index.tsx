@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Dante Allievi - About</title>
       </Head>
       <article className={styles.content}>
-        <h1 className={styles.content__title}>{aboutText}</h1>
+        <p className={styles.content__title}>{aboutText}</p>
         <SkillsCardsContainer />
       </article>
     </>

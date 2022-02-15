@@ -1,5 +1,5 @@
 .container {
-  @apply p-6 overflow-y-auto mb-5;
+  @apply py-3 px-6 pb-0 overflow-y-auto;
 
   &__title {
     @apply text-xl font-bold;
